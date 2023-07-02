@@ -325,6 +325,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                         />
                         <div className="portfolio-overlay">
                           <a
+                          style={{color:"transparent"}}
                             className="popup-ajax stretched-link"
                             href="#a"
                             onClick={() => {
@@ -332,7 +333,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             }}
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
-                          >pro</a>
+                          >a</a>
                           <div className="portfolio-overlay-details">
                             <h5 className="text-white fw-400">
                               {project.title}

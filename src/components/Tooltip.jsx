@@ -11,7 +11,7 @@ export const Tooltip = (p) => {
       trigger: "hover",
     });
     return () => t.dispose();
-  }, [p.text]);
+  }, [p.placement, p.text]);
 
   return React.cloneElement(p.children, { ref: childRef });
 };
