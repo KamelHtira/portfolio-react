@@ -25,7 +25,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               <img
                 className="img-fluid rounded-pill d-block"
                 src="images/profile.jpg"
-                title="I'm Simone"
+                title="I'm Kamel"
                 alt="profile"
               />
             </span>
@@ -165,7 +165,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               </li>
             </ul>
           </div>
-          <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+          {/* <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
             <li className="social-icons-facebook">
               <Tooltip text="Facebook" placement="top">
                 <a
@@ -210,7 +210,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 </a>
               </Tooltip>
             </li>
-          </ul>
+          </ul> */}
           <button
             onClick={(e) => {
               setIsNavModalClose(!isNavModalClose);

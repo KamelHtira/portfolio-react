@@ -27,30 +27,27 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
         {/* Heading end*/}
         <div className="row gy-5">
           {/* About me content start */}
-          <div className="col-lg-7 col-xl-8 text-center text-lg-start">
+          <div className="col-lg-7 col-xl-7 text-center text-lg-start">
             <h2
               className={
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
+              I'm <span className="text-primary">Kamel Htira,</span> a Web
               Developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+            I am Kamel Htira, a web developer who is dedicated to delivering projects on time while maintaining the highest standards of quality. With a strong emphasis on effective communication, I ensure that clients are always kept informed and involved throughout the development process.
+            
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+            I take pride in my ability to meet deadlines without compromising the integrity of the work. Moreover, I firmly believe that enjoying what I do is essential for producing exceptional results. By infusing my work with enthusiasm and a positive attitude, I bring a sense of joy and passion to every project.
+             Trust me to handle your web development needs with professionalism, efficiency, and a touch of fun.
             </p>
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
-          <div className="col-lg-5 col-xl-4">
+          <div className="col-lg-5 col-xl-5">
             <div className="ps-lg-4">
               <ul
                 className={
@@ -59,18 +56,18 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 }
               >
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Kamel Htira
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:chat@simone.com">kamel.htira@isamm.u-manouba.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Age:</span>{Math.floor((new Date() - new Date('2001-11-23')) / (365.25 * 24 * 60 * 60 * 1000))}
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
+                  <span className="fw-600 me-2">From:</span>Ariana,
+                   Tunisia
                 </li>
               </ul>
               <a
@@ -92,7 +89,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           }
         >
           <div className="row">
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-4">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -100,14 +97,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>10</span>+
+                  <span>2</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Years Experiance
                 </p>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            {/* <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -115,14 +112,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>250</span>+
+                  <span>2</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Happy Clients
                 </p>
               </div>
-            </div>
-            <div className="col-6 col-md-3">
+            </div> */}
+            <div className="col-6 col-md-4">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -130,14 +127,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>650</span>+
+                  <span>6</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Projects Done
                 </p>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-4">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -145,7 +142,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>38</span>
+                  <span>11</span>
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Get Awards
