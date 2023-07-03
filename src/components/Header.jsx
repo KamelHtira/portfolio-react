@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tooltip } from "./Tooltip";
+// import { Tooltip } from "./Tooltip";
 import { Link } from "react-scroll";
 
 const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
