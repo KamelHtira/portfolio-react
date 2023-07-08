@@ -1,45 +1,45 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
+import resumeFile from "../documents/KAMEL_HTIRA_CV.pdf";
 
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2000 - 2004",
-      title: "Computer Science",
-      place: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2023 - 2020",
+      title: "Bachelor's Degree in Multimedia Computing",
+      place: "Higher Institute of Arts and Multimedia Manouba ( ISAMM )",
+      desc: "Bachelor's Degree in Multimedia Computing with excellent honors, encompassing digital media production, web development, and multimedia design. Equipped to excel and contribute to multimedia computing advancements.",
     },
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
+      yearRange: "2019 - 2020",
+      title: "Baccalaureate Degree in computer science",
+      place: "Hight School Hamida Bakir",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
-    {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
+    // {
+    //   yearRange: "2009 - 2012",
+    //   title: "Master Degree",
+    //   place: "Harvard University",
+    //   desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    // },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
+      yearRange: "2023 - Present",
+      title: "Back-end Developer",
+      place: "E-Tafakna Legal",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
+      yearRange: "Summer 2023",
+      title: "End Of Study Internship",
+      place: "Medianet",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
+      yearRange: "Summer 2022",
+      title: "Front-end Developer",
+      place: "Opuslab",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
   ];
@@ -205,13 +205,13 @@ const Resume = ({ classicHeader, darkTheme }) => {
             skills.map((skill, index) => (
               <div key={index} style={{border:"1px solid white",borderRadius:"10px",padding:"20px",margin:"10px",justifyContent:"center"}} className="col-md-2">
                 <p
+                style={{textAlign:"center", width:"100%"}}
                   className={
-                    " fw-500 text-start mb-2 " +
+                    " fw-500 mb-2 " +
                     (darkTheme ? "text-light" : "text-dark")
                   }
                 >
-                  {skill.name}
-                  {/* <span className="float-end">{skill.percent}%</span> */}
+                  {skill.name}{/* <span className="float-end">{skill.percent}%</span> */}
                 </p>
                 {/* <div
                   className={

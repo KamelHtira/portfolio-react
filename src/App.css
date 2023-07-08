@@ -1,0 +1,23 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #28a74653 !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #001e1a !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000a09 !important;
+}
+
+.MuiSkeleton-root {
+  border-radius: 8px !important;
+}
