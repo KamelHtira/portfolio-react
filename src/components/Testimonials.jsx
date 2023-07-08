@@ -6,32 +6,32 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
   const reviews = [
     {
       name: "Dennis Jacques",
-      position: "User from USA",
-      src: "images/testimonial/client-sm-3.jpg",
-      desc: "Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.",
+      position: "Upwork Client",
+      src: "images/testimonial/client-sm-1.jpg",
+      desc: "One of the best web designer I've ever met. When it comes to solving problems I just need to say him once that we need to fix this. Later that day we discuss that problem is already resolved. I will definitely hiring him in the future for all the web design related projects.",
       rating: 5,
     },
     {
       name: "Jay Shah",
-      position: "Founder at Icomatic Pvt Ltd",
-      src: "images/testimonial/client-sm-1.jpg",
-      desc: "Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.",
-      rating: 5,
-    },
-    {
-      name: "Patrick Cary",
-      position: "Freelancer from USA",
+      position: "Upwork Client",
       src: "images/testimonial/client-sm-2.jpg",
-      desc: "I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure.",
+      desc: "Kamel was an amazing freelancer to work with. Delivered more than I expected. He has great skills, communication, and most importantly extremely helpful and kept providing me with solutions. It is clear that he really cares and wants to submit only the best solution.",
       rating: 5,
     },
-    {
-      name: "Chris Tom",
-      position: "User from UK",
-      src: "images/testimonial/client-sm-4.jpg",
-      desc: "I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.",
-      rating: 5,
-    },
+    // {
+    //   name: "Patrick Cary",
+    //   position: "Freelancer from USA",
+    //   src: "images/testimonial/client-sm-2.jpg",
+    //   desc: "I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure.",
+    //   rating: 5,
+    // },
+    // {
+    //   name: "Chris Tom",
+    //   position: "User from UK",
+    //   src: "images/testimonial/client-sm-4.jpg",
+    //   desc: "I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.",
+    //   rating: 5,
+    // },
   ];
 
   var settings = {
@@ -91,23 +91,25 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
                   }
                 >
                   <div className="d-flex align-items-center mt-auto mb-4">
-                    <img
+                    {/* <img
                       className="img-fluid rounded-circle border d-inline-block w-auto"
                       src={value.src}
                       alt=""
-                    />
+                    /> */}
                     <p className="ms-3 mb-0">
-                      <strong
+                      {/* <strong
                         className={
                           "d-block fw-600 " +
                           (darkTheme ? "text-white" : "text-dark")
                         }
                       >
                         {value.name}
-                      </strong>
+                      </strong> */}
+
                       <span className="text-muted fw-500">
-                        {" "}
+                      <strong style={{color:"white"}}>
                         {value.position}{" "}
+                        </strong>                        
                       </span>
                     </p>
                   </div>

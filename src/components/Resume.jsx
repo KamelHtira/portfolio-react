@@ -7,13 +7,13 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2023 - 2020",
       title: "Bachelor's Degree in Multimedia Computing",
       place: "Higher Institute of Arts and Multimedia Manouba ( ISAMM )",
-      desc: "Bachelor's Degree in Multimedia Computing with excellent honors, encompassing digital media production, web development, and multimedia design. Equipped to excel and contribute to multimedia computing advancements.",
+      desc: "Bachelor's Degree in Multimedia Computing with excellent honors, specializing in data structures, web development, and multimedia design.",
     },
     {
       yearRange: "2019 - 2020",
       title: "Baccalaureate Degree in computer science",
       place: "Hight School Hamida Bakir",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "I attended Haamida Bakir High School, specializing in computer science.",
     },
     // {
     //   yearRange: "2009 - 2012",
@@ -28,19 +28,23 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2023 - Present",
       title: "Back-end Developer",
       place: "E-Tafakna Legal",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "I am currently working as a backend developer specializing in Node.js, TypeScript, and Java. Additionally, I handle front-end tasks utilizing React.js and React Native.",
     },
     {
       yearRange: "Summer 2023",
       title: "End Of Study Internship",
       place: "Medianet",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: `The project is a Desktop and Mobile Application designed to simplify patient
+      management and online appointment booking for physicians. The intuitive
+      admin dashboard enables efficient management of patient data and
+      appointments.`,
     },
     {
       yearRange: "Summer 2022",
       title: "Front-end Developer",
       place: "Opuslab",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: `The project is an administration Dashboard to manage the student database and
+      digitize much of the work.`,
     },
   ];
 
