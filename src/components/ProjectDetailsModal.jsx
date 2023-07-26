@@ -71,6 +71,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                       <div className="item">
                         <img
                           className="img-fluid"
+                          style={{maxHeight:"500px",margin:"auto"}}
                           alt=""
                           src={projectDetails?.thumbImage}
                         />
@@ -78,7 +79,9 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                       {projectDetails?.sliderImages?.length > 0 &&
                         projectDetails?.sliderImages?.map((image, index) => (
                           <div className="item" key={index}>
-                            <img className="img-fluid" alt="" src={image} />
+                            <img className="img-fluid"
+                            style={{maxHeight:"500px",margin:"auto"}}
+                             alt="" src={image} />
                           </div>
                         ))}
                     </Slider>
@@ -150,7 +153,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         </span>
                         {projectDetails?.date}
                       </li>
-                      <li>
+                      {projectDetails?.url &&<li>
                         <span
                           className={
                             "text-dark font-weight-600 me-2" +
@@ -166,7 +169,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         >
                           {projectDetails?.url?.name}
                         </a>
-                      </li>
+                      </li>}
                     </ul>
                     {/* <div className="row no-gutters align-items-center">
                       <div

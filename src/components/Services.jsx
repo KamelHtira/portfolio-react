@@ -4,12 +4,12 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
+      name: "Backend Dev",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       icon: "fas fa-palette",
     },
     {
-      name: "Web Design",
+      name: "Database Architecture ",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       icon: "fas fa-desktop",
     },
@@ -19,20 +19,20 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Develop",
+      name: "Mobile Dev",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       icon: "fas fa-paint-brush",
     },
-    {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-chart-area",
-    },
-    {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-bullhorn",
-    },
+    // {
+    //   name: "Business Analysis",
+    //   desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    //   icon: "fas fa-chart-area",
+    // },
+    // {
+    //   name: "SEO Marketing",
+    //   desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    //   icon: "fas fa-bullhorn",
+    // },
   ];
 
   return (
