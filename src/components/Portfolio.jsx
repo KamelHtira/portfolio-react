@@ -28,8 +28,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         industry: "Software Engineering",
         date: "6/8/2023",
       url: {
-        name: "Download Electron App",
-        link: "https://mega.nz/file/c39whKKZ#xSR9rnVjN6UJUdkjtTlRMxZ7j1CvR1faRDAWJwKgE-g",
+        name: "Download Setup App",
+        link: "https://www.mediafire.com/file/83rbib0w5g4elub/MedVizor_1.0.0_x64_en-US.msi/file",
       },
       socialLinks: {  
         // facebook: "http://www.facebook.com/",
@@ -94,39 +94,39 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.DESIGN],
     },
-    {
-      title: "Patients Mobile App",
-      projectInfo:
-        "The mobile application enables users to effortlessly schedule appointments with doctors, conveniently search for medical professionals, receive timely notifications, and enjoy other useful features.",
-      client: "Ruby Clinton",
-      technologies: "Flutter, Dart",
-      industry: "Mobile Development",
-      date: "1/7/2023",
-      // url: {
-      //   // name: "www.example.com",
-      //   // link: "https://www.example.com",
-      // },
-      socialLinks: {
-        // facebook: "http://www.facebook.com/",
-        // twitter: "http://www.twitter.com/",
-        // google: "http://www.google.com/",
-        // instagram: "http://www.instagram.com/",
-        // mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/DocFlutter/0.png",
-      sliderImages: [
-        "images/projects/DocFlutter/1.png",
-        "images/projects/DocFlutter/2.png",
-        "images/projects/DocFlutter/3.png",
-        "images/projects/DocFlutter/4.png",
-        "images/projects/DocFlutter/5.png",
-        "images/projects/DocFlutter/6.png","images/projects/DocFlutter/7.png",
-        "images/projects/DocFlutter/8.png",
-        "images/projects/DocFlutter/9.png"
+    // {
+    //   title: "Patients Mobile App",
+    //   projectInfo:
+    //     "The mobile application enables users to effortlessly schedule appointments with doctors, conveniently search for medical professionals, receive timely notifications, and enjoy other useful features.",
+    //   client: "Ruby Clinton",
+    //   technologies: "Flutter, Dart",
+    //   industry: "Mobile Development",
+    //   date: "1/7/2023",
+    //   // url: {
+    //   //   // name: "www.example.com",
+    //   //   // link: "https://www.example.com",
+    //   // },
+    //   socialLinks: {
+    //     // facebook: "http://www.facebook.com/",
+    //     // twitter: "http://www.twitter.com/",
+    //     // google: "http://www.google.com/",
+    //     // instagram: "http://www.instagram.com/",
+    //     // mail: "mailto:example@gmail.com",
+    //   },
+    //   thumbImage: "images/projects/DocFlutter/0.png",
+    //   sliderImages: [
+    //     "images/projects/DocFlutter/1.png",
+    //     "images/projects/DocFlutter/2.png",
+    //     "images/projects/DocFlutter/3.png",
+    //     "images/projects/DocFlutter/4.png",
+    //     "images/projects/DocFlutter/5.png",
+    //     "images/projects/DocFlutter/6.png","images/projects/DocFlutter/7.png",
+    //     "images/projects/DocFlutter/8.png",
+    //     "images/projects/DocFlutter/9.png"
 
-      ],
-      categories: [filters.PHOTOS],
-    },
+    //   ],
+    //   categories: [filters.PHOTOS],
+    // },
   ];
 
   // initialize an Isotope object with configs
