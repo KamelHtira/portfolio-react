@@ -180,11 +180,11 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           URL:
                         </span>
                         <a
-                          href={projectDetails?.url?.link}
+                          href={projectDetails?.url2?.link}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {projectDetails?.url?.name}
+                          {projectDetails?.url2?.name}
                         </a>
                       </li>}
                     </ul>
