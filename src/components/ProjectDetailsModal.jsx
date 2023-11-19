@@ -170,6 +170,23 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           {projectDetails?.url?.name}
                         </a>
                       </li>}
+                      {projectDetails?.url2 &&<li>
+                        <span
+                          className={
+                            "text-dark font-weight-600 me-2" +
+                            (darkTheme ? " text-white" : "")
+                          }
+                        >
+                          URL:
+                        </span>
+                        <a
+                          href={projectDetails?.url?.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {projectDetails?.url?.name}
+                        </a>
+                      </li>}
                     </ul>
                     {/* <div className="row no-gutters align-items-center">
                       <div

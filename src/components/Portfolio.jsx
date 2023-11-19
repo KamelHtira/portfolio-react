@@ -25,13 +25,17 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         appointments.`,
       // client: "Ruby Clinton",
       technologies: "NodeJS, NextJS, ReactJS, ElectronJS",
-        industry: "Software Engineering",
-        date: "6/8/2023",
+      industry: "Software Engineering",
+      date: "6/8/2023",
       url: {
-        name: "Download Setup App",
-        link: "https://www.mediafire.com/file/83rbib0w5g4elub/MedVizor_1.0.0_x64_en-US.msi/file",
+        name: "Download Setup Windows 10/11",
+        link: "https://www.mediafire.com/file/iyt0mm2ntx7ahh4/MedVizor_Win10%252611.msi/file",
       },
-      socialLinks: {  
+      url2: {
+        name: "Download Setup Windows 7",
+        link: "https://www.mediafire.com/file/are5wluzw9uvtqs/MedVizor_Win7.msi/file",
+      },
+      socialLinks: {
         // facebook: "http://www.facebook.com/",
         // twitter: "http://www.twitter.com/",
         // google: "http://www.google.com/",
@@ -87,7 +91,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/DocFlutter/3.png",
         "images/projects/DocFlutter/4.png",
         "images/projects/DocFlutter/5.png",
-        "images/projects/DocFlutter/6.png","images/projects/DocFlutter/7.png",
+        "images/projects/DocFlutter/6.png", "images/projects/DocFlutter/7.png",
         "images/projects/DocFlutter/8.png",
         "images/projects/DocFlutter/9.png"
 
@@ -235,7 +239,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                         />
                         <div className="portfolio-overlay">
                           <a
-                          style={{color:"transparent"}}
+                            style={{ color: "transparent" }}
                             className="popup-ajax stretched-link"
                             href="#a"
                             onClick={() => {
