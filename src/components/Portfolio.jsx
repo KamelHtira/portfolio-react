@@ -25,13 +25,17 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         appointments.`,
       // client: "Ruby Clinton",
       technologies: "NodeJS, NextJS, ReactJS, ElectronJS",
-        industry: "Software Engineering",
-        date: "6/8/2023",
+      industry: "Software Engineering",
+      date: "6/8/2023",
       url: {
-        name: "Download Electron App",
-        link: "https://mega.nz/file/c39whKKZ#xSR9rnVjN6UJUdkjtTlRMxZ7j1CvR1faRDAWJwKgE-g",
+        name: "Download Setup Windows 10/11",
+        link: "https://www.mediafire.com/file/iyt0mm2ntx7ahh4/MedVizor_Win10%252611.msi/file",
       },
-      socialLinks: {  
+      url2: {
+        name: "Download Setup Windows 7",
+        link: "https://www.mediafire.com/file/are5wluzw9uvtqs/MedVizor_Win7.msi/file",
+      },
+      socialLinks: {
         // facebook: "http://www.facebook.com/",
         // twitter: "http://www.twitter.com/",
         // google: "http://www.google.com/",
@@ -87,46 +91,46 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/DocFlutter/3.png",
         "images/projects/DocFlutter/4.png",
         "images/projects/DocFlutter/5.png",
-        "images/projects/DocFlutter/6.png","images/projects/DocFlutter/7.png",
+        "images/projects/DocFlutter/6.png", "images/projects/DocFlutter/7.png",
         "images/projects/DocFlutter/8.png",
         "images/projects/DocFlutter/9.png"
 
       ],
       categories: [filters.DESIGN],
     },
-    {
-      title: "Patients Mobile App",
-      projectInfo:
-        "The mobile application enables users to effortlessly schedule appointments with doctors, conveniently search for medical professionals, receive timely notifications, and enjoy other useful features.",
-      client: "Ruby Clinton",
-      technologies: "Flutter, Dart",
-      industry: "Mobile Development",
-      date: "1/7/2023",
-      // url: {
-      //   // name: "www.example.com",
-      //   // link: "https://www.example.com",
-      // },
-      socialLinks: {
-        // facebook: "http://www.facebook.com/",
-        // twitter: "http://www.twitter.com/",
-        // google: "http://www.google.com/",
-        // instagram: "http://www.instagram.com/",
-        // mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/DocFlutter/0.png",
-      sliderImages: [
-        "images/projects/DocFlutter/1.png",
-        "images/projects/DocFlutter/2.png",
-        "images/projects/DocFlutter/3.png",
-        "images/projects/DocFlutter/4.png",
-        "images/projects/DocFlutter/5.png",
-        "images/projects/DocFlutter/6.png","images/projects/DocFlutter/7.png",
-        "images/projects/DocFlutter/8.png",
-        "images/projects/DocFlutter/9.png"
+    // {
+    //   title: "Patients Mobile App",
+    //   projectInfo:
+    //     "The mobile application enables users to effortlessly schedule appointments with doctors, conveniently search for medical professionals, receive timely notifications, and enjoy other useful features.",
+    //   client: "Ruby Clinton",
+    //   technologies: "Flutter, Dart",
+    //   industry: "Mobile Development",
+    //   date: "1/7/2023",
+    //   // url: {
+    //   //   // name: "www.example.com",
+    //   //   // link: "https://www.example.com",
+    //   // },
+    //   socialLinks: {
+    //     // facebook: "http://www.facebook.com/",
+    //     // twitter: "http://www.twitter.com/",
+    //     // google: "http://www.google.com/",
+    //     // instagram: "http://www.instagram.com/",
+    //     // mail: "mailto:example@gmail.com",
+    //   },
+    //   thumbImage: "images/projects/DocFlutter/0.png",
+    //   sliderImages: [
+    //     "images/projects/DocFlutter/1.png",
+    //     "images/projects/DocFlutter/2.png",
+    //     "images/projects/DocFlutter/3.png",
+    //     "images/projects/DocFlutter/4.png",
+    //     "images/projects/DocFlutter/5.png",
+    //     "images/projects/DocFlutter/6.png","images/projects/DocFlutter/7.png",
+    //     "images/projects/DocFlutter/8.png",
+    //     "images/projects/DocFlutter/9.png"
 
-      ],
-      categories: [filters.PHOTOS],
-    },
+    //   ],
+    //   categories: [filters.PHOTOS],
+    // },
   ];
 
   // initialize an Isotope object with configs
@@ -235,7 +239,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                         />
                         <div className="portfolio-overlay">
                           <a
-                          style={{color:"transparent"}}
+                            style={{ color: "transparent" }}
                             className="popup-ajax stretched-link"
                             href="#a"
                             onClick={() => {
