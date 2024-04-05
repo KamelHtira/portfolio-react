@@ -23,6 +23,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
           >
             <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
               <img
+                width={150}
                 className="img-fluid rounded-pill d-block"
                 src="images/profile.jpg"
                 title="I'm Kamel"
@@ -35,10 +36,11 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
           </Link>
           {/* Logo End */}
           <div
+            
             id="header-nav"
             className={
               isNavModalClose
-                ? "collapse navbar-collapse w-100 my-lg-auto "
+                ? "collapse navbar-collapse w-100 my-lg-auto"
                 : "show navbar-collapse w-100 my-lg-auto"
             }
           >
@@ -78,7 +80,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   About Me
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -94,7 +96,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 >
                   What I Do
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className="nav-link "
@@ -112,7 +114,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   Resume
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -128,7 +130,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 >
                   Portfolio
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className="nav-link "

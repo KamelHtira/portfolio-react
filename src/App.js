@@ -79,18 +79,18 @@ function App() {
               classicHeader={classicHeader}
               darkTheme={darkTheme}
             ></AboutUs>
-            <Services
+            {/* <Services
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-            ></Services>
+            ></Services> */}
             <Resume
               classicHeader={classicHeader}
               darkTheme={darkTheme}
             ></Resume>
-            <Portfolio
+            {/* <Portfolio
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-            ></Portfolio>
+            ></Portfolio> */}
             <Testimonials
               classicHeader={classicHeader}
               darkTheme={darkTheme}

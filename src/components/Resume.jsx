@@ -4,6 +4,12 @@ import resumeFile from "../documents/KAMEL_HTIRA_CV.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
+      yearRange: "2023 - Present",
+      title: "Engneering Degree in Software Development",
+      place: "Higher School of Engineering and Technologies (Esprit)",
+      desc: "Software Engineering Degree. It offers targeted training with complementary focuses including software development, quality assurance, software architectures, data acquisition, testing and validation, systems, and networks.",
+    },
+    {
       yearRange: "2023 - 2020",
       title: "Bachelor's Degree in Multimedia Computing",
       place: "Higher Institute of Arts and Multimedia Manouba ( ISAMM )",
@@ -25,10 +31,16 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const experienceDetails = [
     {
-      yearRange: "2023 - Present",
+      yearRange: "4/2023 - 9/2023",
+      title: "Back-end Developer",
+      place: "Medianet",
+      desc: "I am currently working as a backend developer and software architect. I handle security layers development and api Gateways",
+    },
+    {
+      yearRange: "4/2023 - 9/2023",
       title: "Back-end Developer",
       place: "E-Tafakna Legal",
-      desc: "I am currently working as a backend developer specializing in Node.js, TypeScript, and Java. Additionally, I handle front-end tasks utilizing React.js and React Native.",
+      desc: "I worked as a backend developer specializing in Node.js, TypeScript, and Java. Additionally, I handle front-end tasks utilizing React.js and React Native.",
     },
     {
       yearRange: "Summer 2023",
@@ -70,17 +82,22 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 0,
     },
     {
-      name: "Bootstrap",
+      name: "C/C++",
       percent: 0,
     },
     {
-      name: "Electron JS",
+      name: "Python",
       percent: 0,
     },
     {
       name: "Flutter",
       percent: 0,
     },
+    {
+      name: "Rust",
+      percent: 0,
+    },
+    
     {
       name: "Git",
       percent: 0,
@@ -93,8 +110,20 @@ const Resume = ({ classicHeader, darkTheme }) => {
       name: "MySQL",
       percent: 0,
     },
+    // {
+    //   name: "SurrealDB",
+    //   percent: 0,
+    // }, 
     {
       name: "AWS / Azure",
+      percent: 0,
+    },
+    {
+      name: "WSO2",
+      percent: 0,
+    },
+    {
+      name: "Java",
       percent: 0,
     },
     
@@ -234,7 +263,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
               </div>
             ))}
         </div>
-        <div className="text-center mt-5">
+        {/* <div className="text-center mt-5">
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
             href={resumeFile}
@@ -245,7 +274,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
               <i className="fas fa-download" />
             </span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

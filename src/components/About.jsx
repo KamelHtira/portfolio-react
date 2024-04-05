@@ -62,21 +62,21 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span className="fw-600 me-2">Email:</span>
                   <a href="mailto:chat@simone.com">kamel.htira@isamm.u-manouba.com</a>
                 </li>
-                <li>
+                {/* <li>
                   <span className="fw-600 me-2">Age:</span>{Math.floor((new Date() - new Date('2001-11-23')) / (365.25 * 24 * 60 * 60 * 1000))}
-                </li>
+                </li> */}
                 <li className="border-0">
                   <span className="fw-600 me-2">From:</span>Ariana,
                    Tunisia
                 </li>
               </ul>
-              <a
+              {/* <a
                 href={resumeFile}
                 download
                 className="btn btn-primary rounded-pill"
               >
                 Download CV
-              </a>
+              </a> */}
             </div>
           </div>
           {/* about me personal details end */}
@@ -89,7 +89,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           }
         >
           <div className="row">
-            <div className="col-6 col-md-4">
+            <div className="col-6 col-md-6">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -97,7 +97,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>2</span>+
+                  <span>4</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Years Experiance
@@ -119,7 +119,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </p>
               </div>
             </div> */}
-            <div className="col-6 col-md-4">
+            {/* <div className="col-6 col-md-4">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -127,14 +127,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>6</span>+
+                  <span>12</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Projects Done
                 </p>
               </div>
-            </div>
-            <div className="col-6 col-md-4">
+            </div> */}
+            <div className="col-6 col-md-6">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -142,10 +142,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>11</span>
+                  <span>20</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Get Awards
+                  Awards and Certs
                 </p>
               </div>
             </div>

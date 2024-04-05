@@ -101,14 +101,14 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (+216) 58 162 179
+              (+216) 50 923 251
             </p>
-            <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
+            {/* <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-fax" />
               </span>
               (+216) 50 923 251
-            </p>
+            </p> */}
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
@@ -129,9 +129,9 @@ const Contact = ({ classicHeader, darkTheme }) => {
               }
             >
               <li className="social-icons-linkedin">
-                <Tooltip text="Dribbble" placement="top">
+                <Tooltip text="LinkedIn" placement="top">
                   <a
-                    href="http://www.dribbble.com/harnishdesign/"
+                    href="https://www.linkedin.com/in/kamel-htira-742204205/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -175,7 +175,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="https://github.com/KamelHtira"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -193,7 +193,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "text-white" : "")
               }
             >
-              Send us a note
+              Send me a note 
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}
