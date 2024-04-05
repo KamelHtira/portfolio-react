@@ -183,6 +183,17 @@ const Contact = ({ classicHeader, darkTheme }) => {
                   </a>
                 </Tooltip>
               </li>
+              <li className="social-icons-chess">
+                <Tooltip text="Let's play chess!" placement="top">
+                  <a
+                    href="https://www.chess.com/member/kamelhtira"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-solid fa-chess"></i>
+                  </a>
+                </Tooltip>
+              </li>
             </ul>
           </div>
           {/* contact form */}
@@ -193,7 +204,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "text-white" : "")
               }
             >
-              Send me a note 
+              Send me a note
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}

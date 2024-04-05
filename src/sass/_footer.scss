@@ -183,7 +183,10 @@ html[dir="rtl"] #footer {
     color: $dribbble;
   }
   li:hover.social-icons-github a, &.social-icons-colored li.social-icons-github a {
-    color: $github;
+    color: #252525;
+  }
+  li:hover.social-icons-chess a, &.social-icons-colored li.social-icons-chess a {
+    color: #006a1c;
   }
   li:hover.social-icons-behance a, &.social-icons-colored li.social-icons-behance a {
     color: $behance;
