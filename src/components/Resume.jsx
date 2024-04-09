@@ -31,7 +31,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const experienceDetails = [
     {
-      yearRange: "4/2023 - 9/2023",
+      yearRange: "10/2023 - Present",
       title: "Back-end Developer",
       place: "Medianet",
       desc: "I am currently working as a backend developer and software architect. I handle security layers development and api Gateways",
