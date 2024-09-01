@@ -1,5 +1,5 @@
 import React from "react";
-// import resumeFile from "../documents/KAMEL_HTIRA_CV.pdf";
+import resumeFile from "../documents/KAMEL_HTIRA_CV.pdf";
 const AboutUs = ({ classicHeader, darkTheme }) => {
   return (
     <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
@@ -70,13 +70,13 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                    Tunisia
                 </li>
               </ul>
-              {/* <a
+              <a
                 href={resumeFile}
                 download
                 className="btn btn-primary rounded-pill"
               >
                 Download CV
-              </a> */}
+              </a>
             </div>
           </div>
           {/* about me personal details end */}

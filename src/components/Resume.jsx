@@ -4,7 +4,13 @@ import React from "react";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2023 - Present",
+      yearRange: "2024 - 2026",
+      title: "Master's degree, Computer Science for Autonomous Systems",
+      place: "Eötvös Loránd University (ELTE)",
+      desc: "I am honored to have been awarded the prestigious Stipendium Hungaricum scholarship, which has allowed me to pursue a Master’s degree in Computer Science for Autonomous Systems at Eötvös Loránd University (ELTE), one of Hungary's leading institutions.",
+    },
+    {
+      yearRange: "2023 - 2024",
       title: "Engneering Degree in Software Development",
       place: "Higher School of Engineering and Technologies (Esprit)",
       desc: "Software Engineering Degree. It offers targeted training with complementary focuses including software development, quality assurance, software architectures, data acquisition, testing and validation, systems, and networks.",
@@ -31,7 +37,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const experienceDetails = [
     {
-      yearRange: "10/2023 - Present",
+      yearRange: "10/2023 - 9/2024",
       title: "Back-end Developer",
       place: "Medianet",
       desc: "I am currently working as a backend developer and software architect. I handle security layers development and api Gateways",
