@@ -60,7 +60,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">kamel.htira@isamm.u-manouba.com</a>
+                  <a href="mailto:chat@simone.com">kamel4htira@gmail.com</a>
                 </li>
                 {/* <li>
                   <span className="fw-600 me-2">Age:</span>{Math.floor((new Date() - new Date('2001-11-23')) / (365.25 * 24 * 60 * 60 * 1000))}
