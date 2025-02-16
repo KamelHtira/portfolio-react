@@ -91,17 +91,17 @@ const Contact = ({ classicHeader, darkTheme }) => {
               Address
             </h2>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
-              Avenue of the Martyrs,
+              {/* Avenue of the Martyrs, */}
+              {/* <br /> */}
+              {/* Mnihla Oliya, */} Budapest
               <br />
-              Mnihla Oliya,
-              <br />
-              Tunisia, Ariana
+              {/* Tunisia, Ariana */} Hungary
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (+216) 50 923 251
+              (+36) 20 325 1595
             </p>
             {/* <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
@@ -113,7 +113,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              kamel.htira@isamm.u-manouba.tn
+              kamel2htira@gmail.com
             </p>
             <h2
               className={

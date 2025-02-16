@@ -1,9 +1,15 @@
 import React, { useState } from "react";
-// import { Tooltip } from "./Tooltip";
 import { Link } from "react-scroll";
 
 const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
   const [isNavModalClose, setIsNavModalClose] = useState(true);
+  const [activeSection, setActiveSection] = useState("home"); // Track active section
+
+  const handleLinkClick = (section) => {
+    setActiveSection(section); // Update active section
+    setIsNavModalClose(true); // Close the navigation modal
+  };
+
   return (
     <header id="header" className="sticky-top">
       {/* Navbar */}
@@ -16,10 +22,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             style={{ cursor: "pointer" }}
             to="home"
             className="mb-lg-auto mt-lg-4"
-            onClick={(e) => {
-              e.preventDefault();
-              setIsNavModalClose(true);
-            }}
+            onClick={() => handleLinkClick("home")}
           >
             <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
               <img
@@ -36,7 +39,6 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
           </Link>
           {/* Logo End */}
           <div
-            
             id="header-nav"
             className={
               isNavModalClose
@@ -47,179 +49,57 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <ul className="navbar-nav text-lg-center my-lg-auto py-lg-3">
               <li className="nav-item">
                 <Link
-                  target={homeRef}
-                  className="nav-link "
+                  className={`nav-link ${activeSection === "home" ? "active" : ""}`}
                   smooth
                   duration={500}
                   style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
                   to="home"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
+                  onClick={() => handleLinkClick("home")}
                 >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link "
+                  className={`nav-link ${activeSection === "about" ? "active" : ""}`}
                   smooth
                   duration={500}
                   style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
                   to="about"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
+                  onClick={() => handleLinkClick("about")}
                 >
                   About Me
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="services"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  What I Do
-                </Link>
-              </li> */}
               <li className="nav-item">
                 <Link
-                  className="nav-link "
+                  className={`nav-link ${activeSection === "resume" ? "active" : ""}`}
                   smooth
                   duration={500}
                   style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
                   to="resume"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
+                  onClick={() => handleLinkClick("resume")}
                 >
                   Resume
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="portfolio"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  Portfolio
-                </Link>
-              </li> */}
               <li className="nav-item">
                 <Link
-                  className="nav-link "
+                  className={`nav-link ${activeSection === "contact" ? "active" : ""}`}
                   smooth
                   duration={500}
                   style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="testimonial"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  Testimonial
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
                   to="contact"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
+                  onClick={() => handleLinkClick("contact")}
                 >
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
-          {/* <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
-            <li className="social-icons-facebook">
-              <Tooltip text="Facebook" placement="top">
-                <a
-                  href="http://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-twitter">
-              <Tooltip text="Twitter" placement="top">
-                <a
-                  href="http://www.twitter.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-twitter" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-dribbble">
-              <Tooltip text="Dribbble" placement="top">
-                <a
-                  href="http://www.dribbble.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-dribbble" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-github">
-              <Tooltip text="Google" placement="top">
-                <a
-                  href="http://www.google.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-github" />
-                </a>
-              </Tooltip>
-            </li>
-          </ul> */}
           <button
-            onClick={(e) => {
-              setIsNavModalClose(!isNavModalClose);
-            }}
-            className={
-              isNavModalClose ? "navbar-toggler" : "navbar-toggler show"
-            }
+            onClick={() => setIsNavModalClose(!isNavModalClose)}
+            className={isNavModalClose ? "navbar-toggler" : "navbar-toggler show"}
             id="navbar-toggler"
             type="button"
           >
@@ -229,7 +109,6 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
           </button>
         </div>
       </nav>
-      {/* Navbar End */}
     </header>
   );
 };

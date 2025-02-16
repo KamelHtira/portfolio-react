@@ -37,7 +37,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                       strings: [
                         "I'm Kamel Htira.",
                         "I'm a Freelancer.",
-                        "I'm a Developer.",
+                        "I'm a Software Engineer.",
                       ],
                       autoStart: true,
                       loop: true,
@@ -45,7 +45,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in Mnihla Ariana, Tunisia.
+                  based in Budapest, Hungary.
                 </p>
                 <a
                   href="#contact"

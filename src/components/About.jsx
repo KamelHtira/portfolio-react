@@ -33,16 +33,24 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Kamel Htira,</span> a Web
-              Developer
+              I'm <span className="text-primary">Kamel Htira,</span> a Software
+              Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I am Kamel Htira, a web developer who is dedicated to delivering projects on time while maintaining the highest standards of quality. With a strong emphasis on effective communication, I ensure that clients are always kept informed and involved throughout the development process.
-            
+              I am Kamel Htira, a Software Engineer who is dedicated to
+              delivering projects on time while maintaining the highest
+              standards of quality. With a strong emphasis on effective
+              communication, I ensure that clients are always kept informed and
+              involved throughout the development process.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I take pride in my ability to meet deadlines without compromising the integrity of the work. Moreover, I firmly believe that enjoying what I do is essential for producing exceptional results. By infusing my work with enthusiasm and a positive attitude, I bring a sense of joy and passion to every project.
-             Trust me to handle your web development needs with professionalism, efficiency, and a touch of fun.
+              I take pride in my ability to meet deadlines without compromising
+              the integrity of the work. Moreover, I firmly believe that
+              enjoying what I do is essential for producing exceptional results.
+              By infusing my work with enthusiasm and a positive attitude, I
+              bring a sense of joy and passion to every project. Trust me to
+              handle your web development needs with professionalism,
+              efficiency, and a touch of fun.
             </p>
           </div>
           {/* About me content end */}
@@ -60,29 +68,28 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">kamel4htira@gmail.com</a>
+                  <a href="mailto:chat@simone.com">kamel2htira@gmail.com</a>
                 </li>
                 {/* <li>
                   <span className="fw-600 me-2">Age:</span>{Math.floor((new Date() - new Date('2001-11-23')) / (365.25 * 24 * 60 * 60 * 1000))}
                 </li> */}
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Ariana,
-                   Tunisia
+                  <span className="fw-600 me-2">From:</span>Ariana, Tunisia
                 </li>
               </ul>
-              <a
+              {/* <a
                 href={resumeFile}
                 download
                 className="btn btn-primary rounded-pill"
               >
                 Download CV
-              </a>
+              </a> */}
             </div>
           </div>
           {/* about me personal details end */}
         </div>
         {/* projects rewards counting start */}
-        <div
+        {/* <div
           className={
             "brands-grid separator-border mt-5 " +
             (darkTheme ? "separator-border-light" : "")
@@ -104,7 +111,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </p>
               </div>
             </div>
-            {/* <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -118,8 +125,8 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   Happy Clients
                 </p>
               </div>
-            </div> */}
-            {/* <div className="col-6 col-md-4">
+            </div>
+            <div className="col-6 col-md-4">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -133,7 +140,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   Projects Done
                 </p>
               </div>
-            </div> */}
+            </div>
             <div className="col-6 col-md-6">
               <div className="featured-box text-center">
                 <h4
@@ -150,7 +157,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* projects rewards counting end */}
       </div>
     </section>
