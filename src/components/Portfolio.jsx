@@ -5,7 +5,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   // init one ref to store the future isotope object
   const isotope = useRef();
   // store the filter keyword in a state
-  const [filterKey, setFilterKey] = useState("*");
+  // const [filterKey, setFilterKey] = useState("*");
   const [imagesLoaded, setimagesLoaded] = useState(0);
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
@@ -117,15 +117,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   }, []);
 
   // handling filter key change
-  useEffect(() => {
-    if (imagesLoaded) {
-      filterKey === "*"
-        ? isotope.current.arrange({ filter: `*` })
-        : isotope.current.arrange({ filter: `.${filterKey}` });
-    }
-  }, [filterKey, imagesLoaded]);
+  // useEffect(() => {
+  //   if (imagesLoaded) {
+  //     filterKey === "*"
+  //       ? isotope.current.arrange({ filter: `*` })
+  //       : isotope.current.arrange({ filter: `.${filterKey}` });
+  //   }
+  // }, [filterKey, imagesLoaded]);
 
-  const handleFilterKeyChange = (key) => () => setFilterKey(key);
+  // const handleFilterKeyChange = (key) => () => setFilterKey(key);
 
   return (
     <>
