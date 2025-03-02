@@ -17,121 +17,91 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "Doctor Admin Dashboard App",
+      title: "Spring Security Template ",
       projectInfo:
-        `The project is a Desktop Application designed to simplify patient
-        management and online appointment booking for physicians. The intuitive
-        admin dashboard enables efficient management of patient data and
-        appointments.`,
-      // client: "Ruby Clinton",
-      technologies: "NodeJS, NextJS, ReactJS, ElectronJS",
-      industry: "Software Engineering",
-      date: "6/8/2023",
+        "I love Spring Boot a lot, but the one thing that bothers me is every time i work on project i need to spend so much time setting up the server. Configuring Spring Security, Swagger, and JWT authentication with a database can take 2 to 3 hours time that could be spent building actual features.",
+      technologies: "Spring Boot, Spring Security, JWT, Swagger, PostgreSQL",
       url: {
-        name: "Download Setup Windows 10/11",
-        link: "https://www.mediafire.com/file/iyt0mm2ntx7ahh4/MedVizor_Win10%252611.msi/file",
+        name: "https://github.com/KamelHtira/spring-security-template",
+        link: "https://github.com/KamelHtira/spring-security-template",
       },
-      url2: {
-        name: "Download Setup Windows 7",
-        link: "https://www.mediafire.com/file/are5wluzw9uvtqs/MedVizor_Win7.msi/file",
+      thumbImage: "images/projects/SpringbootTemplate/springboot.png",
+      date: "02/2025",
+      categories: [filters.PHOTOS],
+    },
+    {
+      title: "Petra AB Nodejs Socket.io Backend Server",
+      projectInfo:
+        "I contributed a Node.js server for flutter to handle all the socket.io connections and manage the chat between users. The server is responsible for handling all the chat messages, storing them in the database, and sending them to the appropriate users.",
+      technologies: "Node.js, Express.js, Socket.io, MongoDB",
+      thumbImage: "images/projects/petra/petra.png",
+      date: "01/2025",
+      categories: [filters.PHOTOS],
+    },
+    {
+      title: "Ruby on Rails project to learn Rails Ecosystem",
+      projectInfo:
+        "I have strong experience with JavaScript and Java, but I hadn’t worked with Ruby before. To expand my skill set, I decided to create a simple project using Ruby on Rails. This project features an SQLite database, Bulma CSS framework for styling, and Chart.js for data visualization. Additionally, I implemented session-based authentication to deepen my understanding of the Ruby on Rails ecosystem, including concepts like Pin Imports, hosting, and the MVC architecture.",
+      technologies: "Ruby, Ruby on Rails, Bulma (CSS Framework), Chart.js, SQLite, JavaScript",
+      url: {
+        name: "https://github.com/KamelHtira/demo-ruby-on-rails",
+        link: "https://github.com/KamelHtira/demo-ruby-on-rails",
       },
-      socialLinks: {
-        // facebook: "http://www.facebook.com/",
-        // twitter: "http://www.twitter.com/",
-        // google: "http://www.google.com/",
-        // instagram: "http://www.instagram.com/",
-        // mail: "mailto:example@gmail.com",
+      thumbImage: "images/projects/rails/rails.png",
+      date: "12/2024",
+      categories: [filters.PHOTOS],
+    },
+    {
+      title: "BTS Bank Management Platform",
+      projectInfo:
+        "I contributed a user-friendly platform for managing transactions and bank accounts, implementing a microservices architecture with WSO2 API Gateway for seamless API integrations. I also focused on secure authentication to protect financial operations and user access.",
+      technologies: "Java, Angular, WSO2 API Gateway, Typescript, PostgreSQL",
+      thumbImage: "images/projects/bts/bts.png",
+      date: "11/2024",
+      categories: [filters.PHOTOS],
+    },
+    {
+      title: "Digital Transformation for Tunisian Customs",
+      projectInfo:
+        "I contributed to a project for Tunisian Customs to reduce paperwork and streamline administrative processes, using a monolithic architecture with a Java backend and React frontend. I also developed high-performance C++ modules and optimized deployment with Docker containerization.",
+      technologies: "Java, React.js, C++, Docker, PostgreSQL",
+      thumbImage: "images/projects/customs/customs.png",
+      date: "07/2024",
+      categories: [filters.PHOTOS],
+    },
+    {
+      title: "LET-VENUE Booking Website",
+      projectInfo:
+        "I contributed a Node.js-based architecture with a server, services, and multiple databases (MySQL, MongoDB, Redis). I built the frontend using Next.js, integrated APIs via the KrakenD API Gateway, and ensured efficient service delivery through Docker-based deployment.",
+      technologies: "Javascript, Node.js, Next.js, KrakenD, Docker",
+      thumbImage: "images/projects/letvenue/letvenue.png",
+      date: "03/2024",
+      categories: [filters.PHOTOS],
+    },
+    {
+      title: "MedVizor Desktop App",
+      projectInfo: `The project is a Desktop Application designed to simplify patient
+        management and online appointment booking for physicians. The project created in collaboration with local tunisian doctors and base on their needs. The application is designed to be user-friendly and easy to navigate, allowing doctors to manage their patients' records efficiently and effectively.`,
+      technologies: "NodeJS, Express.js, Next.js, Tauri.js, MongoDB",
+      url: {
+        name: "https://github.com/KamelHtira/medvizor-desktop-offline",
+        link: "https://github.com/KamelHtira/medvizor-desktop-offline",
       },
       thumbImage: "images/projects/DocDashboard/dashboard.png",
-      sliderImages: [
-        "images/projects/DocDashboard/Capture.png",
-        "images/projects/DocDashboard/Capture1.png",
-        "images/projects/DocDashboard/Capture2.png",
-        "images/projects/DocDashboard/Capture3.png",
-        "images/projects/DocDashboard/Capture4.png",
-        "images/projects/DocDashboard/Capture5.png",
-        "images/projects/DocDashboard/Capture6.png",
-        "images/projects/DocDashboard/Capture7.png",
-        "images/projects/DocDashboard/Capture9.png",
-        "images/projects/DocDashboard/Capture10.png",
-        "images/projects/DocDashboard/Capture11.png",
-        "images/projects/DocDashboard/Capture12.png",
-        "images/projects/DocDashboard/Capture13.png",
-        "images/projects/DocDashboard/Capture14.png",
-        "images/projects/DocDashboard/Capture15.png",
-        "images/projects/DocDashboard/Capture16.png",
-        "images/projects/DocDashboard/Capture17.png",
-        "images/projects/DocDashboard/Capture18.png",
-      ],
+      date: "02/2023",
       categories: [filters.BRAND],
     },
     {
-      title: "Patients Mobile App",
+      title: "Java Server for Electronic Signing Service",
       projectInfo:
-        "The mobile application enables users to effortlessly schedule appointments with doctors, conveniently search for medical professionals, receive timely notifications, and enjoy other useful features.",
-      client: "Ruby Clinton",
-      technologies: "Flutter, Dart",
-      industry: "Mobile Development",
-      date: "1/7/2023",
-      // url: {
-      //   // name: "www.example.com",
-      //   // link: "https://www.example.com",
-      // },
-      socialLinks: {
-        // facebook: "http://www.facebook.com/",
-        // twitter: "http://www.twitter.com/",
-        // google: "http://www.google.com/",
-        // instagram: "http://www.instagram.com/",
-        // mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/DocFlutter/0.png",
-      sliderImages: [
-        "images/projects/DocFlutter/1.png",
-        "images/projects/DocFlutter/2.png",
-        "images/projects/DocFlutter/3.png",
-        "images/projects/DocFlutter/4.png",
-        "images/projects/DocFlutter/5.png",
-        "images/projects/DocFlutter/6.png", "images/projects/DocFlutter/7.png",
-        "images/projects/DocFlutter/8.png",
-        "images/projects/DocFlutter/9.png"
-
-      ],
-      categories: [filters.DESIGN],
+        "I created an electronic signature solution allow users to sign and generate contracts electronically also I utilize advanced cryptography libraries to ensure data security using Java Spring Boot 3 and Javascript for backend development and React.js for frontend integration",
+      technologies: "Spring Boot, JWT, MySQL, DSS (Digital Signature Services)",
+      thumbImage: "images/projects/esig/etafakna.png",
+      date: "10/2022",
+      categories: [filters.PHOTOS],
     },
-    // {
-    //   title: "Patients Mobile App",
-    //   projectInfo:
-    //     "The mobile application enables users to effortlessly schedule appointments with doctors, conveniently search for medical professionals, receive timely notifications, and enjoy other useful features.",
-    //   client: "Ruby Clinton",
-    //   technologies: "Flutter, Dart",
-    //   industry: "Mobile Development",
-    //   date: "1/7/2023",
-    //   // url: {
-    //   //   // name: "www.example.com",
-    //   //   // link: "https://www.example.com",
-    //   // },
-    //   socialLinks: {
-    //     // facebook: "http://www.facebook.com/",
-    //     // twitter: "http://www.twitter.com/",
-    //     // google: "http://www.google.com/",
-    //     // instagram: "http://www.instagram.com/",
-    //     // mail: "mailto:example@gmail.com",
-    //   },
-    //   thumbImage: "images/projects/DocFlutter/0.png",
-    //   sliderImages: [
-    //     "images/projects/DocFlutter/1.png",
-    //     "images/projects/DocFlutter/2.png",
-    //     "images/projects/DocFlutter/3.png",
-    //     "images/projects/DocFlutter/4.png",
-    //     "images/projects/DocFlutter/5.png",
-    //     "images/projects/DocFlutter/6.png","images/projects/DocFlutter/7.png",
-    //     "images/projects/DocFlutter/8.png",
-    //     "images/projects/DocFlutter/9.png"
-
-    //   ],
-    //   categories: [filters.PHOTOS],
-    // },
   ];
+  
 
   // initialize an Isotope object with configs
   useEffect(() => {
@@ -189,19 +159,19 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
           {/* Filter Menu */}
           <ul
             className={
-              "portfolio-menu nav nav-tabs justify-content-center border-bottom-0 mb-5 " +
+              "portfolio-menu nav nav-tabs justify-content-center border-bottom-0 " +
               (darkTheme ? "nav-light" : "")
             }
           >
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <button
                 className={"nav-link " + (filterKey === "*" ? "active" : "")}
                 onClick={handleFilterKeyChange("*")}
               >
                 All
               </button>
-            </li>
-            {Object.keys(filters).map((oneKey, i) => (
+            </li> */}
+            {/* {Object.keys(filters).map((oneKey, i) => (
               <li className="nav-item" key={i}>
                 <button
                   className={
@@ -213,7 +183,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                   {filters[oneKey]}
                 </button>
               </li>
-            ))}
+            ))} */}
           </ul>
           {/* Filter Menu end */}
           <div className="portfolio popup-ajax-gallery">
@@ -247,7 +217,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             }}
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
-                          >a</a>
+                          >
+                            a
+                          </a>
                           <div className="portfolio-overlay-details">
                             <h5 className="text-white fw-400">
                               {project.title}

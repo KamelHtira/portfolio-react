@@ -131,7 +131,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         </span>
                         {projectDetails?.technologies}
                       </li>
-                      <li>
+                      {/* <li>
                         <span
                           className={
                             "text-dark font-weight-600 me-2" +
@@ -141,7 +141,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           Industry:
                         </span>
                         {projectDetails?.industry}
-                      </li>
+                      </li> */}
                       <li>
                         <span
                           className={
@@ -160,7 +160,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             (darkTheme ? " text-white" : "")
                           }
                         >
-                          URL:
+                          Github:
                         </span>
                         <a
                           href={projectDetails?.url?.link}
@@ -170,7 +170,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           {projectDetails?.url?.name}
                         </a>
                       </li>}
-                      {projectDetails?.url2 &&<li>
+                      {/* {projectDetails?.url2 &&<li>
                         <span
                           className={
                             "text-dark font-weight-600 me-2" +
@@ -186,7 +186,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         >
                           {projectDetails?.url2?.name}
                         </a>
-                      </li>}
+                      </li>} */}
                     </ul>
                     {/* <div className="row no-gutters align-items-center">
                       <div

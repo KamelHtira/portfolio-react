@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import AboutUs from "./components/About";
 // import Services from "./components/Services";
 import Resume from "./components/Resume";
-// import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio";
 // import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -87,10 +87,10 @@ function App() {
               classicHeader={classicHeader}
               darkTheme={darkTheme}
             ></Resume>
-            {/* <Portfolio
+            <Portfolio
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-            ></Portfolio> */}
+            ></Portfolio>
             {/* <Testimonials
               classicHeader={classicHeader}
               darkTheme={darkTheme}

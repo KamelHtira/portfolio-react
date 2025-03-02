@@ -85,6 +85,18 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               </li>
               <li className="nav-item">
                 <Link
+                  className={`nav-link ${activeSection === "portfolio" ? "active" : ""}`}
+                  smooth
+                  duration={500}
+                  style={{ cursor: "pointer" }}
+                  to="portfolio"
+                  onClick={() => handleLinkClick("portfolio")}
+                >
+                  My work
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
                   className={`nav-link ${activeSection === "contact" ? "active" : ""}`}
                   smooth
                   duration={500}
