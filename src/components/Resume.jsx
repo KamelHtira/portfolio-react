@@ -7,19 +7,13 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2024 - 2026",
       title: "Master’s degree in Computer Science for Software and Service Architecture",
       place: "Eötvös Loránd University (ELTE)",
-      desc: "I am honored to have been awarded the prestigious Stipendium Hungaricum scholarship, which has allowed me to pursue a Master’s degree in Computer Science for Software and Service Architecture at Eötvös Loránd University (ELTE), one of Hungary's leading institutions.",
+      desc: "I am honored to have been awarded the prestigious Stipendium Hungaricum scholarship at ELTE Faculty of Informatics, which has allowed me to pursue a Master’s degree in Computer Science for Software and Service Architecture at Eötvös Loránd University (ELTE), one of Hungary's leading institutions.",
     },
     {
       yearRange: "2023 - 2020",
-      title: "Bachelor's Degree in Multimedia Computing",
-      place: "Higher Institute of Arts and Multimedia Manouba (ISAMM)",
-      desc: "Bachelor's Degree in Multimedia Computing with excellent honors, specializing in data structures, web development, and multimedia design.",
-    },
-    {
-      yearRange: "2019 - 2020",
-      title: "Baccalaureate Degree in computer science",
-      place: "Hight School Hamida Bakir",
-      desc: "I attended Haamida Bakir High School, specializing in computer science.",
+      title: "Bachelor's Degree in Computer Science",
+      place: "University of Manouba (ISAMM)",
+      desc: "Bachelor's Degree in Computer Science with excellent honors at Higher Institute of Multimedia Manouba, specializing in data structures, web development, and multimedia design.",
     }
   ];
 
